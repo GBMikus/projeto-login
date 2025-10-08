@@ -8,7 +8,7 @@ body, html {background-color: var(--cor2); height: 100vh; width: 100vw;}
 
 main {height: 100vh; width: 100vw; position: relative;}
 
-section#login {background-color: white; width: 250px; height: 500px; border-radius: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); overflow: hidden; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);}
+section#login {background-color: white; width: 250px; height: 500px; border-radius: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); overflow: hidden; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); transition: width .5s, height .5s; transition-timing-function: ease;}
 
 section#login > div#imagem {background: url('../imagens/fundo-form.jpg') var(--cor2) no-repeat; height: 200px; background-size: cover; background-position: left center; display: block;}
 
